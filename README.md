@@ -1,0 +1,1 @@
+A simple url shortener that doesn't require an external service.
