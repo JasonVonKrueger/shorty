@@ -8,15 +8,8 @@ function getShortURL() {
  
   function showShortURL(response) {
     var answer = response.responseXML.documentElement.getAttribute("answer");
-	//var answer = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
-	// var responseBody = new JSON().decode(response.getBody());  	  
-   
-	  
-	  alert(answer); 
-	// alert(ga.requestObject.response);
-	// {"result":{"shortURL":"https://claytondev.service-now.com/uak4"}}	  
+    alert(answer); 
+    // one day I'll use a proper notification  
   }	
 	
 }
-
-// https://claytondev.service-now.com/api/clstu/shorty?longurl
